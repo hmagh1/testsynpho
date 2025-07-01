@@ -15,6 +15,7 @@ fn main() {
     ).expect("Échec détection format");
 
     let format = probed.format;
-    println!("Format détecté : {:?}", format);
+    println!("Format détecté : {}", format.format_name());
+
 }
 
